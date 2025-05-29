@@ -18,7 +18,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # 포트 노출
-EXPOSE 8080
+EXPOSE 5000
 
 # 애플리케이션 실행
 ENTRYPOINT ["dotnet", "HelloWorld.dll"]
