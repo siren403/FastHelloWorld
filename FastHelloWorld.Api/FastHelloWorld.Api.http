@@ -1,0 +1,6 @@
+@FastHelloWorld.Api_HostAddress = http://localhost:5032
+
+GET {{FastHelloWorld.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
